@@ -7255,3 +7255,100 @@ body {
   .footer-social img {
     width: 22px;
     height: 22px; }
+
+.thinks-screen {
+  position: relative; }
+  .thinks-screen img {
+    width: 100%; }
+
+.thinks-screen__txt {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; }
+
+.outrun-screen {
+  position: relative; }
+  .outrun-screen img {
+    width: 100%; }
+
+.outrun-screen__txt {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; }
+
+.dark-cost-saving {
+  padding: 0 15px;
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .dark-cost-saving img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: -160px; }
+
+.dark-cost-saving__txt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%; }
+
+.dark-cost-process {
+  padding: 0 15px;
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .dark-cost-process img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: -160px; }
+  .dark-cost-process .dark-cost-process__txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%; }
+
+.dark-cost-control {
+  padding: 0 15px;
+  position: relative;
+  background: #000000;
+  color: #ffffff;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .dark-cost-control img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 50px;
+    margin-top: -160px; }
+  .dark-cost-control .dark-cost-control__txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%; }

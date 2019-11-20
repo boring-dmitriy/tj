@@ -273,3 +273,127 @@ body {
     height: 22px;
   }
 }
+
+//loT-screen
+
+.thinks-screen {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.thinks-screen__txt {
+  position: absolute;
+  top: 0;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+//outrun-screen
+
+.outrun-screen {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+
+.outrun-screen__txt {
+  position: absolute;
+  top: 0;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.dark-cost-saving {
+  padding: 0 15px;
+  position: relative;
+  background: $black;
+  color: $white;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: -160px;
+  }
+}
+
+.dark-cost-saving__txt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.dark-cost-process {
+  padding: 0 15px;
+  position: relative;
+  background: $black;
+  color: $white;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 75px;
+    margin-top: -160px;
+  }
+
+  .dark-cost-process__txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.dark-cost-control {
+  padding: 0 15px;
+  position: relative;
+  background: $black;
+  color: $white;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    position: absolute;
+    top: 50%;
+    height: 75px;
+    width: 50px;
+    margin-top: -160px;
+  }
+
+  .dark-cost-control__txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
